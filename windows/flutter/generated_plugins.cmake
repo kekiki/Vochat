@@ -5,7 +5,6 @@
 list(APPEND FLUTTER_PLUGIN_LIST
   alog_windows
   file_selector_windows
-  firebase_core
   nim_core_windows
   permission_handler_windows
   url_launcher_windows

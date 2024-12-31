@@ -64,7 +64,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.cochat"
+        applicationId "com.example.vochat"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion flutter.minSdkVersion
@@ -81,8 +81,8 @@ android {
     productFlavors {
         develop {
             dimension "app"
-            resValue "string", "cochat", "cochat_debug"
-            applicationId "com.example.cochat"
+            resValue "string", "vochat", "vochat_debug"
+            applicationId "com.example.vochat"
         }
         production {
             dimension "app"

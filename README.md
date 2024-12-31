@@ -1,6 +1,5 @@
-# cochat
-Flutter 1v1 母包，开发前请先执行shell目录下的脚本修改文件名前缀、类名前缀、资源文件hash，
-详见/shell/README.md, 执行完成后再开始您的新包开发, 祝你生活愉快。
+# Vochat
+Flutter 语聊，祝你生活愉快。
 
 ## 开发环境：Flutter & Dart
 Flutter 3.24.5 • channel stable • https://github.com/flutter/flutter.git
@@ -13,7 +12,7 @@ Tools • Dart 3.5.4 • DevTools 2.37.3
 - main_production.dart为生产环境，仅供打包上架使用，编译命令见文件底部
 ``` iOS:
 {
-    "name": "cochat",
+    "name": "vochat",
     "request": "launch",
     "type": "dart",
     "program": "lib/main_develop.dart",
@@ -22,7 +21,7 @@ Tools • Dart 3.5.4 • DevTools 2.37.3
 ``` Android:
 - develop使用测试包名，production使用线上包名
 {
-    "name": "cochat",
+    "name": "vochat",
     "request": "launch",
     "type": "dart",
     "program": "lib/main_develop.dart",

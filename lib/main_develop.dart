@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
-import 'services/config/colive_app_config.dart';
-import 'services/managers/colive_event_logger.dart';
+import 'app_macros/vochat_app_macros.dart';
+import 'services/managers/vochat_event_logger.dart';
 import 'my_app.dart';
 
 import 'dart:async';
-import 'common/utils/colive_stacktrace_util.dart';
+import 'common/utils/vochat_stacktrace_util.dart';
 
 void main() {
   runZoned(
@@ -15,15 +15,15 @@ void main() {
       FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
       SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 
-      ColiveAppConfig.enableApiLog = true;
-      ColiveAppConfig.enableTestLogin = true;
-      ColiveAppConfig.enableAnalytics = false;
-      await ColiveAppConfig.instance.initDevelop();
+      VochatAppMacros.enableApiLog = true;
+      VochatAppMacros.enableTestLogin = true;
+      VochatAppMacros.enableAnalytics = false;
+      await VochatAppMacros.instance.initDevelop();
 
       final onError = FlutterError.onError;
       FlutterError.onError = (FlutterErrorDetails details) {
         onError?.call(details);
-        ColiveEventLogger.instance.reportError(details.exception.toString());
+        VochatEventLogger.instance.reportError(details.exception.toString());
       };
       runApp(const MyApp());
     },
@@ -35,9 +35,9 @@ void main() {
           Object error, StackTrace stackTrace) {
         final stringBuffer = StringBuffer();
         stringBuffer.writeln(error.toString());
-        stringBuffer.write(ColiveStacktraceUtil.format(stackTrace, 1));
+        stringBuffer.write(VochatStacktraceUtil.format(stackTrace, 1));
         parent.print(zone, stringBuffer.toString());
-        ColiveEventLogger.instance.reportError(stringBuffer.toString());
+        VochatEventLogger.instance.reportError(stringBuffer.toString());
       },
     ),
   );

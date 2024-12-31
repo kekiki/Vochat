@@ -10,14 +10,14 @@ sudo python3 prefix.py
 ```
 
 ### prefix eg:
-sudo python3 /Users/mac/Desktop/cochat/shell/prefix.py
-请输入项目绝对路径: /Users/mac/Desktop/cochat 
-请输入旧文件前缀: cochat
+sudo python3 /Users/mac/Desktop/vochat/shell/prefix.py
+请输入项目绝对路径: /Users/mac/Desktop/vochat 
+请输入旧文件前缀: vochat
 请输入新文件前缀: manda
 
 start ...
-/Users/mac/Desktop/cochat/lib/home/cochat_home_page.dart ------> /Users/mac/Desktop/cochat/lib/home/manda_home_page.dart
-/Users/mac/Desktop/cochat/lib/splash/cochat_splash_controller.dart ------> /Users/mac/Desktop/cochat/lib/splash/manda_splash_controller.dart
+/Users/mac/Desktop/vochat/lib/home/vochat_home_page.dart ------> /Users/mac/Desktop/vochat/lib/home/manda_home_page.dart
+/Users/mac/Desktop/vochat/lib/splash/vochat_splash_controller.dart ------> /Users/mac/Desktop/vochat/lib/splash/manda_splash_controller.dart
 ........
 
 end ...
@@ -31,17 +31,17 @@ sudo python3 hash.py
 ```
 
 ### hash eg:
-sudo python3 /Users/mac/Desktop/cochat/shell/hash.py
-请输入项目绝对路径: /Users/mac/Desktop/cochat 
+sudo python3 /Users/mac/Desktop/vochat/shell/hash.py
+请输入项目绝对路径: /Users/mac/Desktop/vochat 
 
 start ...
-/Users/mac/Desktop/cochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png ... 完成
-/Users/mac/Desktop/cochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png ... 完成
-/Users/mac/Desktop/cochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png ... 完成
-/Users/mac/Desktop/cochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png ... 完成
-/Users/mac/Desktop/cochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png ... 完成
-/Users/mac/Desktop/cochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png ... 完成
-/Users/mac/Desktop/cochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png ... 完成
+/Users/mac/Desktop/vochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png ... 完成
+/Users/mac/Desktop/vochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png ... 完成
+/Users/mac/Desktop/vochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png ... 完成
+/Users/mac/Desktop/vochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png ... 完成
+/Users/mac/Desktop/vochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png ... 完成
+/Users/mac/Desktop/vochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png ... 完成
+/Users/mac/Desktop/vochat/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png ... 完成
 ........
 
 end ...

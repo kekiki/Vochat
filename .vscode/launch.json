@@ -6,7 +6,7 @@
     "configurations": [
         //////////////////// iOS
         {
-            "name": "cochat",
+            "name": "vochat",
             "request": "launch",
             "type": "dart",
             "program": "lib/main_develop.dart",
@@ -14,7 +14,7 @@
         
         //////////////// Android
         // {
-        //     "name": "cochat",
+        //     "name": "vochat",
         //     "request": "launch",
         //     "type": "dart",
         //     "program": "lib/main_develop.dart",
@@ -25,13 +25,13 @@
         // },
         
         {
-            "name": "cochat (profile mode)",
+            "name": "vochat (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "cochat (release mode)",
+            "name": "vochat (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
